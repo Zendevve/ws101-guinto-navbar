@@ -1,0 +1,165 @@
+/* App.css */
+
+/* Body Styles */
+body {
+  font-family: 'Cormorant Garamond', serif;
+  /* Use Cormorant Garamond for body text */
+  background-color: #e8f0d2;
+  /* Soft, light green background reminiscent of Shire fields */
+  color: #4e3b2b;
+  /* Earthy dark brown text color */
+  margin: 0;
+  padding: 0;
+}
+
+/* Navigation Bar Styles */
+nav {
+  background-color: #7b5e3a;
+  /* Rich brownish-green for a rustic feel */
+  padding: 20px;
+  /* Padding around the navbar */
+  border-bottom: 3px solid #4e3b2b;
+  /* Darker brown border at the bottom */
+}
+
+ul {
+  list-style-type: none;
+  /* Remove bullet points from list */
+  display: flex;
+  /* Use flexbox for horizontal layout */
+  justify-content: center;
+  /* Center the navigation items */
+}
+
+li {
+  margin: 0 25px;
+  /* Space between navigation items */
+}
+
+a {
+  color: #f0e6d2;
+  /* Light beige text color for links */
+  text-decoration: none;
+  /* Remove underline from links */
+  font-size: 1.4rem;
+  /* Slightly larger font size for links */
+  font-weight: bold;
+  /* Bold text for links */
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+  /* Subtle shadow effect on links */
+}
+
+a:hover {
+  color: #d1b48f;
+  /* Change color on hover to a warmer shade */
+}
+
+/* Home Content Styles */
+.home-content {
+  max-width: 800px;
+  /* Maximum width for content */
+  margin: 20px auto;
+  /* Center align content with margin at top */
+  padding: 20px;
+  /* Padding around content */
+  background-color: #f5f0e7;
+  /* Light cream background */
+  border-radius: 15px;
+  /* Rounded corners */
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  /* Subtle shadow */
+}
+
+h1 {
+  font-size: 3rem;
+  /* Large heading size */
+  color: #4e3b2b;
+  /* Dark brown color */
+  text-align: center;
+  /* Center align heading */
+}
+
+h2 {
+  font-size: 2rem;
+  /* Subheading size */
+  color: #6b4f3a;
+  /* Slightly lighter dark brown */
+}
+
+p {
+  font-size: 1.2rem;
+  /* Paragraph font size */
+  line-height: 1.5;
+  /* Line height for readability */
+}
+
+/* Image Styles for Home Page and About Page*/
+.home-image,
+.landscape-image,
+.shire-image {
+  width: 100%;
+  /* Full width images */
+  border-radius: 10px;
+  /* Rounded corners for images */
+  margin-top: 20px;
+  /* Space above images */
+}
+
+/* About Content Styles */
+.about-content {
+  max-width: 800px;
+  /* Maximum width for content in About page*/
+  margin: 20px auto;
+  /* Center align content with margin at top*/
+  padding: 20px;
+  /* Padding around content in About page*/
+  background-color: #f5f0e7;
+  /* Light cream background for About page*/
+  border-radius: 15px;
+  /* Rounded corners for About page*/
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  /* Subtle shadow for About page*/
+}
+
+/* Contact Content Styles */
+.contact-content {
+  max-width: 800px;
+  /* Maximum width for content in Contact page*/
+  margin: 20px auto;
+  /* Center align content with margin at top*/
+  padding: 20px;
+  /* Padding around content in Contact page*/
+  background-color: #f5f0e7;
+  /* Light cream background for Contact page*/
+  border-radius: 15px;
+  /* Rounded corners for Contact page*/
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  /* Subtle shadow for Contact page*/
+}
+
+/* Social Links Styles in Contact Page*/
+.social-links {
+  list-style-type: none;
+  /* Remove bullet points from list of social links */
+  padding-left: 0;
+  /* Remove default padding from list */
+}
+
+.social-links li {
+  text-align: center;
+  /* Center align each link item */
+  margin-top: 10px;
+  /* Space above each link item */
+}
+
+.social-links a {
+  font-size: 1.5rem;
+  /* Font size for social links */
+  color: #4e3b2b;
+  /* Dark brown color for better visibility against light background */
+}
+
+.social-links a:hover {
+  color: #d1b48f;
+  /* Change color on hover to a lighter shade */
+}
